@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <TextView
+            android:id="@+id/textViewCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Clientes"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+            android:id="@+id/textViewDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Atendido"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="5dp"/>
+
+    <TextView
+            android:id="@+id/textViewAlterar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Alterado"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_marginRight="50dp"
+    />
+</RelativeLayout>
